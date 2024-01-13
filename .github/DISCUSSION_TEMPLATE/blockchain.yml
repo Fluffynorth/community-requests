@@ -1,4 +1,4 @@
-title: "[Blockchain]"
+title: "[Phoenix]"
 labels: ["blockchain request"]
 body:
   - type: markdown
@@ -9,49 +9,49 @@ body:
     id: name
     attributes:
       label: Name
-      description: Blockchain name
+      description: Phoenix
     validations:
       required: true
   - type: input
     id: tvl
     attributes:
       label: TVL
-      description: Blockchain Total Value Locked
+      description: 1,215,494.81
     validations:
       required: true
   - type: input
     id: web
     attributes:
       label: Website
-      description: Blockchain website url
+      description: http://phoenixblockchain.org/
     validations:
       required: true
   - type: input
     id: blockchain-id
     attributes:
       label: Id
-      description: id number in evm case / slug in no evm case
+      description: 13381
     validations:
       required: true
   - type: input
     id: token
     attributes:
       label: Token
-      description: Native token Name/Symbol
+      description: Phoenix / PHX
     validations:
       required: true
   - type: input
     id: block-explorer
     attributes:
       label: Block Explorer
-      description: "Block explorer url"
+      description: "https://phoenixplorer.com"
     validations:
       required: true
   - type: input
     id: exchange
     attributes:
       label: Main exchange
-      description: Main exchange info (url/name)
+      description: Main exchange info (https://www.fireswap.org/ Fireswap)
     validations:
       required: true
   - type: dropdown
@@ -60,7 +60,6 @@ body:
       label: is EVM?
       options:
         - "Yes"
-        - "No"
     validations:
       required: true
   - type: markdown
@@ -71,7 +70,7 @@ body:
     id: relevant-exchanges
     attributes:
       label: Blockchain other relevant exchanges
-      description: "A clear list of relevant exchanges with link and concise description of them."
+      description: "https://xeggex.com/market/PHX_USDT, https://xeggex.com/market/PHX_USDC, https://xeggex.com/market/PHX_BTC, https://xeggex.com/market/PHX_ETH, https://dex-trade.com/spot/trading/PHXUSDT, https://nonkyc.io/market/PHX_BNB, https://nonkyc.io/market/PHX_USDT, https://financex.trade/trading/phxusdc, https://financex.trade/trading/phxusdt"
       value: |
         ...
       render: bash
@@ -81,7 +80,7 @@ body:
     id: relevant-info
     attributes:
       label: Blockchain other relevant info
-      description: "A clear and concise description of blockchain (if it's needed)."
+      description: "With 50+ collaborators and a strong community of volunteers working to bring PHX to the marketplace, Phoenix Blockchain (PHX) is the next stage of cryptocurrency as a utility. Launched in November 2021, the Phoenix Blockchain was created to meet a need for an all inclusive blockchain. With incredibly low gas fees, this is truly a crypto for everyone, allowing for development and creativity to shine, without the barrier to entry of prohibitive gas fees that interfere with other projects."
       value: |
         ...
       render: bash
@@ -90,8 +89,33 @@ body:
   - type: textarea
     id: relevant-link
     attributes:
-      label: Blockchain other relevant links
-      description: "A clear list of relevant links and concise description of them."
+      label: relevant information
+      description: "Name: Phoenix Blockchain
+Symbol: PHX
+ChainID: 13381
+RPC: https://rpc.phoenixplorer.com
+Explorer: https://phoenixplorer.com
+
+Factory Address: 0xaeA039F542c88Cc14A6Ca38deeeECf91D9B790D6
+Router: 0x8d5567953B0aC3348C959c722D4327f29155AEE4
+------------------------------------------
+Chain Socials: Twitter - https://x.com/phoenixblockchn
+Telegram - https://t.me/Crypto_Phoenix_Official
+Discord - https://discord.gg/C2eH3as4fY
+Logo URL: https://phoenixblockchain.org/wp-content/uploads/2021/11/phoenixweb.png
+Chainlist: https://chainlist.org/chain/13381 
+------------------------------------------
+DEX details
+Name: FireSwap
+Factory Address: 0xaeA039F542c88Cc14A6Ca38deeeECf91D9B790D6
+Router: 0x8d5567953B0aC3348C959c722D4327f29155AEE4
+Logo URL: https://phoenixblockchain.org/wp-content/uploads/2022/01/fireswap-web.png
+------------------------------------------
+Main website: http://phoenixblockchain.org/
+Bridge: https://archate.com/
+Native Token Address on Phoenix: wPHX 0xcb186051DD62914B6dFc56c257823bfDA20DbEe6
+Native Token Address on BSC: wPHX 0xb4d59ccdd2300508cd57348816b80d91b4e3800e
+LinkTree: https://linktr.ee/phoenixblockchain"
       value: |
         ...
       render: bash
